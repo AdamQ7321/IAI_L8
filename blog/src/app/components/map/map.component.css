@@ -2,8 +2,8 @@
 body {
 
 
-  background-color: black;
-  background-image:  url("assets/symbol01.jpg");
+  background-color: black ;
+  background-image:  url("../../../assets/symbol01.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -19,16 +19,12 @@ ul, li {
   margin-top: 5px;
   margin-right: 10px;
 }
-.obrazek{
-  background: white;
-  padding: 12px;
-  background: url("assets/obrazek.png");
-  width: 676px ;
-  height: 448px;
+img{
+
   margin-right: 15px;
   margin-bottom: 8px;
   border: 1px solid silver;
-
+  background: white; padding: 4px;
   border-radius: 3px;
   box-shadow: 1px 1px 3px silver;
 
@@ -71,4 +67,3 @@ iframe{
   color:red;
 
 }
-

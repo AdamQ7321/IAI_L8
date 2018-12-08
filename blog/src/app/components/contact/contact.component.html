@@ -1,0 +1,104 @@
+
+<div class="content-box">
+
+
+</div>
+
+
+<h1 class="srodek">Uniwersum Tolkiena</h1><br>
+
+
+<app-nav-bar> </app-nav-bar>
+
+<form novalidate>
+  <fieldset>
+
+    <legend>Uzupelnij dane:</legend>
+
+
+    <div class="correct3">
+      <label for="name">Imie:</label>
+    </div>
+    <input id="name" name="name" type="text" placeholder="Podaj imię" required/>
+    <div id="name-info" class="invalid-feedback"></div>
+
+    <div class="correct3">
+      <label for="surname">Nazwisko:</label>
+    </div>
+    <input id="surname" name="surname" type="text" placeholder="Podaj nazwisko" required/>
+    <div id="surname-info" class="invalid-feedback">
+    </div>
+
+
+
+    <div class="correct3">
+      <label for="email">E-mail:</label>
+    </div>
+    <input id="email" type="email"  placeholder="Podaj email" required/>
+    <div id="email-info" class="invalid-feedback"></div>
+
+
+
+
+    <div class="correct3">
+      <label>Płeć</label>
+    </div>
+
+    <div class="correct2">
+      <label for="man">Mężczyzna</label>
+      <input type="radio" name="sex" id="man" value="man" required/>
+      <label for="woman">Kobieta</label>
+      <input type="radio" name="sex" id="woman" value="woman" required/>
+      <div id="sex-info" class="invalid-feedback"></div>
+    </div>
+
+
+
+
+    <div class="correct3">
+      <label for="description">Opis</label>
+    </div>
+    <textarea id="description" name="description" required> </textarea>
+    <div id="mess-info" class="invalid-feedback">
+    </div>
+
+
+
+
+
+    <div class="correct3">
+      <label for="age">Please enter your age:</label>
+    </div>
+    <input type="number" id="age" placeholder="Podaj wiek" min="1"  max="110"/>
+    <div id="age-info" class="invalid-feedback">
+
+    </div>
+
+
+
+
+
+    <div class="correct3">
+      <label for="maritial">
+        <span>Please choose your status:</span>
+        <select id="maritial" name="maritial" required>
+          <option>Panna/Kawaler</option>
+          <option>Mężatka/Żonaty</option>
+          <option>Wdowa/Wdowiec</option>
+        </select>
+      </label>
+    </div>
+
+    <div class="buttons_placeing">
+      <button type="reset" class="btn btn-danger clear">Wyczyść</button>
+      <button type="submit" class="btn btn-primary send">Wyślij</button>
+    </div>
+
+  </fieldset>
+
+
+</form>
+
+
+<script src="js/script.js" type="text/javascript">  </script>
+<script src="js/navbar.js" type="text/javascript"></script>

@@ -1,0 +1,46 @@
+
+
+.srodek{
+  margin-top: 15px;
+  text-align: center;
+  letter-spacing: 0.5mm;
+  border: 8px double;
+  padding: 7px;
+  color: darkgreen;
+}
+
+.middle{
+
+  text-align: center;
+  background-color: darkgreen;
+
+}
+
+
+.btn-group button {
+
+  background-color: darkgreen;
+  border: 2px solid green;
+  color: cyan;
+  padding: 10px 24px;
+  margin-right: 1px;
+  float: left;
+
+}
+
+.btn-group:after {
+
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group button:not(:last-child) {
+
+  border-right: none;
+}
+
+.btn-group button:hover {
+
+  background-color: black;
+}

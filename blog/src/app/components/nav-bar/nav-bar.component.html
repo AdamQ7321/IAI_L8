@@ -1,10 +1,20 @@
-<nav>
-     <ul >
-          <li><a href="../../../app/components/home/home.component.html">Strona Główna</a></li>
-          <li><a href="MostIntrestingCharacters.html"> Postacie z Uniwersum</a></li>
-         <li><a href="../../../app/components/map/map.component.html">Mapa</a> </li>
-          <li><a href="../../../app/components/contact/contact.component.html">Kontakt</a> </li>
-          <li><a href="../../../app/components/quiz/quiz.component.html">Quiz</a> </li>
 
-      </ul>
+
+<h1 class="srodek">Uniwersum Tolkiena</h1><br>
+<nav>
+<div class="middle">
+  <div class="btn-group">
+  <button [routerLink]="['/']">Strona Główna</button>
+    <button [routerLink]="['/map']">Mapa</button>
+    <button [routerLink]="['/contact']">Kontakt</button>
+    <button [routerLink]="['/quiz']">Quiz</button>
+    <button [routerLink]="['/blog']">Blog</button>
+
+  </div>
+</div>
 </nav>
+
+
+
+
+

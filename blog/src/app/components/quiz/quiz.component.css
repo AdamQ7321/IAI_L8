@@ -1,53 +1,27 @@
 
 
 
-body {
-
-  background-color: black ;
-  background-image:   url(" ../../../assets/symbol01.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-
-}
-.srodek{
-  text-align: center;
-  letter-spacing: 0.5mm;
-  border: 8px double;
-  padding: 5px;
-  color:green;
-  margin-top: 2%;
-
-}
 
 p{
-
 
   margin-top: 3%;
   font-size: 72px;
   line-height: 2;
   font-weight: 900;
-  margin-left: 39%;
+  margin-left: 36%;
   margin-bottom: 20px;
   color: cyan;
 
 
 }
-ul, li {
 
-  text-align: center;
-  display:inline;
-  color: Pink;
-  background: darkgreen;
-  white-space: nowrap;
-  margin-right: 10px;
-}
+
 
 .button_start{
 
 
-  margin-left: 38%;
-  margin-right: 10%;
+  margin-left: 35%;
+  margin-right: 13%;
   margin-top: 20px;
 
 
@@ -94,6 +68,8 @@ ul, li {
   box-shadow: 0 9px lightgrey;
 
 
+
+
 }
 
 .button_history:hover {background-color: darkgoldenrod}
@@ -110,5 +86,6 @@ ul, li {
   margin-left:37%;
   font-size: 40px;
   color: cyan;
+
 
 }
